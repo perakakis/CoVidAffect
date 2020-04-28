@@ -1,8 +1,5 @@
-# [CoVidAffect](https://covidaffect.info)
+# CoVidAffect [https://covidaffect.info](https://covidaffect.info)
 Real-time, geolocalized data of mood variations following the COVID-19 crisis
-
-# How to cite
-Perakakis, P. (2019). HEPLAB: a Matlab graphical interface for the preprocessing of the heartbeat-evoked potential (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.2649943
 
 # Background
 The COVID-19 outbreak and the ensuing confinement measures are expected to bear a significant psychological impact on the affected populations. Here, we publish a dataset from CoVidAffect, a citizen science project that was launched to provide direct, geolocalized data, of individual changes in subjective feeling and physical arousal following the COVID-19 crisis. These publicly available data are continuously updated and visual summaries are displayed on the project website. The data can be further analyzed to identify affected geographical regions, quantify emotional responses to specific measures and policies, and to understand the effect of context variables, such as living space, employment status, and practice of physical exercise, on emotional regulation and psychological resilience. Our goal is to offer a resource that will help to anticipate the needs for psychosocial support and facilitate evidence-based policy making.
@@ -11,10 +8,10 @@ The COVID-19 outbreak and the ensuing confinement measures are expected to bear 
 You can read more details about the data acquisition method in our preprint:
 
 # Data Records
-The data are stored in three distinct CSV files located at the 'datasets' directory.
+The data are stored in three distinct CSV files located at the `datasets` directory.
 
 ## participants.csv
-The file participants.csv stores data from the initial participation questionnaire and includes the following variables:
+The file **participants.csv** stores data from the initial participation questionnaire and includes the following variables:
 
 **id** – Unique identifier for each participant. This variable is used to merge the three databases.
 
@@ -57,7 +54,7 @@ The file participants.csv stores data from the initial participation questionnai
 **valence** – Valence rating before the crisis in a scale from -50 (negative) to +50 (positive).
 
 ## mood.csv
-The file mood.csv stores data from each valence/arousal rating, recorded either on the web or via the smartphone app. It includes the following variables:
+The file **mood.csv** stores data from each valence/arousal rating, recorded either on the web or via the smartphone app. It includes the following variables:
 
 **participant** – Unique identifier for each participant. This variable coincides with the variable id in participants.csv and can be used to merge the two datasets.
 
@@ -70,7 +67,7 @@ The file mood.csv stores data from each valence/arousal rating, recorded either 
 **arousal** – Current arousal rating in a scale from 0 (calm) to 100 (excited).
 
 ## context.csv
-The file context.csv stores data from the supplementary questions recorded once per week by the subsample of the participants using the smartphone app. It includes the following variables:
+The file **context.csv** stores data from the supplementary questions recorded once per week by the subsample of the participants using the smartphone app. It includes the following variables:
 
 **date** – The date the questions were launched (always on Friday at 20:00, Madrid Time zone) in the form DD/MM/YY.
 
