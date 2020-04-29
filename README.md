@@ -1,13 +1,19 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3774527.svg)](https://doi.org/10.5281/zenodo.3774527)
 
-# CoVidAffect [https://covidaffect.info](https://covidaffect.info)
+# CoVidAffect [(https://covidaffect.info)](https://covidaffect.info)
 Real-time, geolocalized data of mood variations following the COVID-19 outbreak
 
 # How to cite
 Carlos Bailon, Carmen Goicoechea, Oresti Baños, Miguel Damas, Héctor Pomares, Ángel Correa, Daniel Sanabria, Pandelis Perakakis. (2020). The CoVidAffect dataset of mood variations following the COVID-19 outbreak (Version date_28.04.20) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3774527
 
+# Preprint
+For detailed information on data acquisition and curation we invite you to read our [preprint](https://psyarxiv.com/3sv6r/) on the PsyArXiv repository.
+
+# OSF project
+We also invite all interested researchers and groups to join the [project's OSF page](https://osf.io/5cqzk/) where we will be sharing supplementary figures and information.
+
 # Background
-The COVID-19 outbreak and the ensuing confinement measures are expected to bear a significant psychological impact on the affected populations. Here, we publish a dataset from CoVidAffect, a citizen science project that was launched to provide direct, geolocalized data of individual changes in subjective feeling and physical arousal following the COVID-19 crisis. These publicly available data are continuously updated and visual summaries are displayed on the project website. The data can be further analyzed to identify affected geographical regions, quantify emotional responses to specific measures and policies, and to understand the effect of context variables, such as living space, employment status, and practice of physical exercise, on emotional regulation and psychological resilience. Our goal is to offer a resource that will help to anticipate the needs for psychosocial support and facilitate evidence-based policy making.
+The COVID-19 outbreak and the ensuing confinement measures are expected to bear a significant psychological impact on the affected populations. Here, we publish a dataset from [CoVidAffect](https://covidaffect.info), a citizen science project that was launched to provide direct, geolocalized data of changes in subjective feeling and physical arousal following the COVID-19 crisis. These publicly available data are continuously updated and visual summaries are displayed on the project website. The data can be further analyzed to identify affected geographical regions, quantify emotional responses to specific measures and policies, and to understand the effect of context variables, such as living space, socieconomic status, and practice of physical exercise, on emotional regulation and psychological resilience. Our goal is to offer a resource that will help to anticipate the needs for psychosocial support and facilitate evidence-based policy making.
 
 # Data Records
 The data are stored in three distinct CSV files located at the `datasets` directory.
