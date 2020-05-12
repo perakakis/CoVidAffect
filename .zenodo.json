@@ -1,0 +1,65 @@
+{
+    "description": "<p>Latest Update of the CoVidAffect dataset</p>", 
+    "license": "CC-BY-4.0", 
+    "title": "The CoVidAffect dataset of mood variations following the COVID-19 outbreak", 
+    "keywords": [
+        "Mood",
+        "Affective state"
+        "COVID-19", 
+        "Smartphone", 
+        "Experience Sampling",
+        "Ecological momentary assessment"
+        "mHealth""
+    ], 
+    "upload_type": "dataset", 
+    "communities": [
+        {
+            "identifier": "covid-19"
+        }, 
+        {
+            "identifier": "zenodo"
+        }
+    ], 
+    "creators": [
+        {
+            "orcid": "0000-0001-5049-334X",
+            "affiliation": "University of Granada", 
+            "name": "Carlos Bailon"
+        }, 
+        {
+            "affiliation": "University of Granada", 
+            "name": "Carmen Goicoechea"
+        }, 
+        {
+            "orcid": "0000-0001-5434-4253",
+            "affiliation": "University of Granada", 
+            "name": "Oresti Ba\u00f1os"
+        }, 
+        {
+            "orcid": "0000-0003-2599-8076",
+            "affiliation": "University of Granada", 
+            "name": "Miguel Damas"
+        }, 
+        {
+            "orcid": "0000-0002-8528-828X",
+            "affiliation": "University of Granada", 
+            "name": "H\u00e9ctor Pomares"
+        }, 
+        {
+            "orcid": "0000-0001-5256-4949",
+            "affiliation": "University of Granada", 
+            "name": "\u00c1ngel Correa"
+        }, 
+        {
+            "orcid": "0000-0002-4164-7607",
+            "affiliation": "University of Granada", 
+            "name": "Daniel Sanabria"
+        }, 
+        {
+            "orcid": "0000-0002-9130-3247", 
+            "affiliation": "University of Granada", 
+            "name": "Pandelis Perakakis"
+        }
+    ], 
+    "access_right": "open",    
+}
