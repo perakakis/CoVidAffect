@@ -1740,19 +1740,31 @@
 1738;1790;2020-05-16 16:25:35;fem;42.0;Spain;470003.0;;4.0;17,52,4;other,partner,child;house;3+;balcony;employee;telework;1000-1500;1.0;no;no;0-2;0.0
 1739;1791;2020-05-16 16:35:16;fem;41.0;Colombia;-1.0;Magdalena;5.0;43,20,13,68;partner,child,child,other;house;3+;balcony;employee;same;2000-2500;1.0;no;no;0-2;27.0
 1740;1792;2020-05-16 16:40:31;masc;43.0;Colombia;-1.0;Magdalena;5.0;1,1,1,0;parent,partner,child,parent;house;3+;balcony,yard;employee;same;1500-2000;1.0;no;no;0-2;0.0
-1741;407;2020-04-05 22:18:47;fem;30;Spain;14550;;3.0;'34,3';;house;3;balcony,yard;employee;telework;500-1000;0.0;no;no;2-4;4.0
-1742;5;2020-04-05 22:34:48;fem;37;Spain;11001;;3.0;65,70;;apartment;3;balcony,yard;unemployed;same;0-500;0.0;no;no;2-4;25.0
-1743;410;2020-04-05 23:04:46;fem;43;Spain;28270;;2.0;56;;chalet;;balcony,garden;employee;telework;1500-2000;0.0;no;no;8+;0.0
-1744;436;2020-04-06 11:48:38;masc;40;Spain;14840;;2.0;68;;house;3+;yard,balcony;employee;;1500-2000;1.0;no;no;2-4;48.0
-1745;437;2020-04-06 11:51:04;masc;20;Spain;29400;;2.0;52;;apartment;3;balcony,yard;student;fired;0-500;1.0;no;no;2-4;-16.0
-1746;478;2020-04-06 15:05:08;fem;29;Spain;13005;;2.0;29;;house;2;yard;employee;telework;1000-1500;0.0;no;no;4-6;21.0
-1747;517;2020-04-06 19:00:25;fem;25;Spain;18500;;2.0;28;;apartment;1;balcony;student;same;0-500;1.0;no;no;6-8;-44.0
-1748;533;2020-04-06 21:30:57;fem;43;Spain;14550;;4.0;8,10,44;;house;3+;yard,other;employee;telework;1500-2000;0.0;no;no;2-4;11.0
-1749;537;2020-04-06 23:06:04;fem;40;Spain;18015;;1.0;;;apartment;2;yard;employee;same;1500-2000;0.0;no;no;4-6;0.0
-1750;565;2020-04-07 11:14:07;fem;36;Spain;07800;;1.0;;;apartment;1;balcony;self;telework;3000-5000;0.0;no;no;4-6;-20.0
-1751;586;2020-04-07 12:40:49;fem;41;Spain;18007;;3.0;37, 67;;apartment;3+;balcony;unemployed;same;0-500;0.0;no;no;6-8;34.0
-1752;597;2020-04-07 14:04:09;masc;29;Spain;46021;;3.0;65,63;;house;3+;balcony;unemployed;;0-500;0.0;no;no;0-2;-9.0
-1753;598;2020-04-07 14:25:47;masc;25;Spain;04629;;4.0;61,58;;other;;balcony,garden,yard;student;same;0-500;1.0;no;no;8+;30.0
-1754;612;2020-04-07 16:31:08;masc;21;Spain;28500;;4.0;19, 50, 57;;apartment;3+;balcony;student;telework;0-500;0.0;no;no;0-2;-15.0
-1755;610;2020-04-07 16:26:00;fem;30;Spain;28007;;1.0;;;apartment;1;balcony;employee;same;1500-2000;0.0;no;no;4-6;-8.0
-1756;596;2020-04-08 18:11:41;fem;31;Spain;18004;;2.0;31,32;;apartment;2;balcony;employee;same;1500-2000;0.0;no;no;4-6;-10.0
+1741;1793;2020-05-16 18:55:38;fem;53.0;Spain;28290.0;;4.0;1,2,0;parent,child,parent;chalet;;balcony,yard;employee;same;5000-7000;0.0;reported;reported;0-2;15.0
+1742;1794;2020-05-16 20:59:08;fem;39.0;Colombia;-1.0;Bogotá;3.0;42,14;partner,child;house;3;balcony;employee;fired;500-1000;1.0;no;no;0-2;-20.0
+1743;1795;2020-05-17 00:20:00;fem;40.0;Spain;46520.0;;4.0;2,66,65;child,parent,parent;apartment;3+;balcony;employee;telework;1500-2000;0.0;no;no;0-2;13.0
+1744;1796;2020-05-17 12:42:29;fem;40.0;Spain;11006.0;;1.0;;;apartment;2;balcony;self;new;1000-1500;0.0;no;no;2-4;-24.0
+1745;1797;2020-05-17 14:10:59;fem;31.0;Spain;46011.0;;2.0;31;partner;apartment;3;balcony;employee;same;1000-1500;0.0;no;no;0-2;33.0
+1746;1798;2020-05-17 14:39:48;fem;22.0;Spain;28049.0;;5.0;22,23,25,26;any,any,any,any;apartment;3;no;student;same;0-500;0.0;no;no;0-2;35.0
+1747;1799;2020-05-17 17:06:30;masc;41.0;Colombia;-1.0;Magdalena;4.0;11,20,41;partner,parent,parent;apartment;3;balcony,yard,other;employee;same;2000-2500;1.0;no;no;0-2;-21.0
+1748;1800;2020-05-17 18:34:21;fem;66.0;Spain;46520.0;;2.0;67;partner;apartment;3;balcony;retired;same;1500-2000;0.0;no;no;6-8;0.0
+1749;1801;2020-05-17 21:33:17;fem;35.0;Spain;33201.0;;1.0;;;apartment;2;no;employee;telework;1500-2000;0.0;no;no;8+;21.0
+1750;1802;2020-05-17 22:16:17;masc;32.0;Spain;46520.0;;3.0;31,2;partner,child;apartment;3;balcony;employee;erte;1000-1500;0.0;no;no;4-6;50.0
+1751;1803;2020-05-17 23:16:02;masc;16.0;Spain;1737.0;;1.0;;;study;;;employee;same;0-500;1.0;no;no;0-2;0.0
+1752;1804;2020-05-18 09:18:29;fem;40.0;Spain;11010.0;;3.0;43,38;any,any;apartment;3;balcony;employee;new;1000-1500;0.0;no;no;2-4;0.0
+1753;407;2020-04-05 22:18:47;fem;30;Spain;14550;;3.0;'34,3';;house;3;balcony,yard;employee;telework;500-1000;0.0;no;no;2-4;4.0
+1754;5;2020-04-05 22:34:48;fem;37;Spain;11001;;3.0;65,70;;apartment;3;balcony,yard;unemployed;same;0-500;0.0;no;no;2-4;25.0
+1755;410;2020-04-05 23:04:46;fem;43;Spain;28270;;2.0;56;;chalet;;balcony,garden;employee;telework;1500-2000;0.0;no;no;8+;0.0
+1756;436;2020-04-06 11:48:38;masc;40;Spain;14840;;2.0;68;;house;3+;yard,balcony;employee;;1500-2000;1.0;no;no;2-4;48.0
+1757;437;2020-04-06 11:51:04;masc;20;Spain;29400;;2.0;52;;apartment;3;balcony,yard;student;fired;0-500;1.0;no;no;2-4;-16.0
+1758;478;2020-04-06 15:05:08;fem;29;Spain;13005;;2.0;29;;house;2;yard;employee;telework;1000-1500;0.0;no;no;4-6;21.0
+1759;517;2020-04-06 19:00:25;fem;25;Spain;18500;;2.0;28;;apartment;1;balcony;student;same;0-500;1.0;no;no;6-8;-44.0
+1760;533;2020-04-06 21:30:57;fem;43;Spain;14550;;4.0;8,10,44;;house;3+;yard,other;employee;telework;1500-2000;0.0;no;no;2-4;11.0
+1761;537;2020-04-06 23:06:04;fem;40;Spain;18015;;1.0;;;apartment;2;yard;employee;same;1500-2000;0.0;no;no;4-6;0.0
+1762;565;2020-04-07 11:14:07;fem;36;Spain;07800;;1.0;;;apartment;1;balcony;self;telework;3000-5000;0.0;no;no;4-6;-20.0
+1763;586;2020-04-07 12:40:49;fem;41;Spain;18007;;3.0;37, 67;;apartment;3+;balcony;unemployed;same;0-500;0.0;no;no;6-8;34.0
+1764;597;2020-04-07 14:04:09;masc;29;Spain;46021;;3.0;65,63;;house;3+;balcony;unemployed;;0-500;0.0;no;no;0-2;-9.0
+1765;598;2020-04-07 14:25:47;masc;25;Spain;04629;;4.0;61,58;;other;;balcony,garden,yard;student;same;0-500;1.0;no;no;8+;30.0
+1766;612;2020-04-07 16:31:08;masc;21;Spain;28500;;4.0;19, 50, 57;;apartment;3+;balcony;student;telework;0-500;0.0;no;no;0-2;-15.0
+1767;610;2020-04-07 16:26:00;fem;30;Spain;28007;;1.0;;;apartment;1;balcony;employee;same;1500-2000;0.0;no;no;4-6;-8.0
+1768;596;2020-04-08 18:11:41;fem;31;Spain;18004;;2.0;31,32;;apartment;2;balcony;employee;same;1500-2000;0.0;no;no;4-6;-10.0
