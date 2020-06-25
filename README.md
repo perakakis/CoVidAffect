@@ -30,31 +30,31 @@ The file **participants.csv** stores data from the initial participation questio
 
 **postcode** – The participant’s postal code that is used for geolocation.
 
-**family** – Numeric value that codes the number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
+**family_members** – Numeric value that codes the number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
 
-**family_ages** – Age of each one of the residents included in the variable family.
+**family_ages** – Age of each one of the residents included in the variable family_members.
 
-**family_relation** – The relationship between the participant and each one of the residents included in the variable family. Possible comma separated values are: parent, partner, child, sibling, grandparent, grandchild, other, any (=no family relation).
+**family_relation** – The relationship between the participant and each one of the residents included in the variable family_members. Possible comma separated values are: parent, partner, child, sibling, grandparent, grandchild, other, any (=no family relation).
 
-**type_living** – Housing type. Possible values are: study, apartment, house, residence, chalet, other.
+**residence_type** – Housing type. Possible values are: study, apartment, house, residence, chalet, other.
 
-**living_rooms** – When type_living is set to apartment, house, or chalet, this numeric variable codes the number of rooms (1, 2, or 3+).
+**residence_rooms** – When residence_type is set to apartment, house, or chalet, this numeric variable codes the number of rooms (1, 2, or 3+).
 
 **open_spaces** – Access to open spaces. Possible comma separated values are: balcony, garden, yard, other, no.
 
 **work_previous** – Employment status before the crisis. Possible values are: employee, self (self-employed), unemployed, student, retired, other.
 
-**work_actual** – Current employment status before the crisis. Possible values are: same, new, telework, erte (temporary employment suspension), fired, increased, reduced, other.
+**work_current** – Current employment status before the crisis. Possible values are: same, new, telework, erte (temporary employment suspension), fired, increased, reduced, other.
 
 **income** – Net monthly income. Coded in 10 possible ranges (in Euros): 0-500, 500-1000, 1000-1500, 1500-2000, 2000-2500, 2500-3000, 3000-5000, 5000-7000, 7000-9000, 9000+.
 
 **negative_economy** – Binary flag to code the participant's perception on whether the crisis has negatively affected their economic situation (0=’no’, 1=’yes’).
 
-**covid** – Codes presence of COVID-19 symptoms. Possible values are: no, not_reported (symptomatic but not officially diagnosed), reported (officially diagnosed with COVID-19).
+**covid** – Codes presence of COVID-19 symptoms. Possible values are: no, not_diagnosed (symptomatic but not officially diagnosed), diagnosed (officially diagnosed with COVID-19).
 
-**covid_family** – Codes presence of COVID-19 symptoms in other residents. Possible values are: no, not_reported (symptomatic but not officially diagnosed), reported (officially diagnosed with COVID-19).
+**covid_family** – Codes presence of COVID-19 symptoms in other residents. Possible values are: no, not_diagnosed (symptomatic but not officially diagnosed), diagnosed (officially diagnosed with COVID-19).
 
-**activity** – Codes the number of hours dedicated to physical exercise before the crisis. Possible values are: 0-2, 2-4, 4-6, 6-8, 8+.
+**physical_activity** – Codes the number of hours dedicated to physical exercise before the crisis. Possible values are: 0-2, 2-4, 4-6, 6-8, 8+.
 
 **valence** – Valence rating before the crisis in a scale from -50 (negative) to +50 (positive).
 
@@ -80,7 +80,7 @@ The file **context.csv** stores data from the supplementary questions recorded o
 
 **covid_diagnosed** – Binary flag (‘Yes’ or ‘No’) to code whether the participant was diagnosed with COVID-19 during the past week.
 
-**covid_house_diagnosed** – Binary flag (‘Yes’ or ‘No’) to code whether another resident was diagnosed with COVID-19 during the past week.
+**covid_residence_diagnosed** – Binary flag (‘Yes’ or ‘No’) to code whether another resident was diagnosed with COVID-19 during the past week.
 
 **covid_family_diagnosed** – Binary flag (‘Yes’ or ‘No’) to code whether another family member, or beleved person (not among the house residents) was diagnosed with COVID-19 during the past week.
 
@@ -88,14 +88,16 @@ The file **context.csv** stores data from the supplementary questions recorded o
 
 **work_changed** – Codes changes in the participant’s employment status. Possible values are: no, telework, reduce, increase, erte (temporary employment suspension), fired, new, other.
 
-**activity** – Hours dedicated to physical activity during the past week: 0-2, 2-4, 4-6, 6-8, 8+.
+**physical_activity** – Hours dedicated to physical activity during the past week: 0-2, 2-4, 4-6, 6-8, 8+.
 
 **social_contact** – Codes social contact frequency in the past week compared with social contact before the crisis. Possible values are: same, less, more.
 
 **sleep** – Codes sleep quantity in the past week compared to normal. Possible values are: lot_less, less, same, more, lot_more.
 
 # Technical Validation
-To ensure data reliability, participants that submit mood data through the website are required to introduce their identification number and postal code, which are checked against the existing registers in the database. This step is not required when answering through the smartphone app.
+To ensure data reliability, participants who submitted mood data through the website were required to insert their identification number and postal code, which were checked against the existing registers in the database. This step was not required when entering data through the smartphone app.
+
+The visual analogue scales used to rate both valence and arousal were randomly initialized to avoid any bias caused by selection effort. Also, the mood assessment and weekly context questionnaires triggered through the smartphone app only showed one question per page. This technique helped the participant to focus on one question at a time.
 
 The database is periodically checked to identify possible duplicate records. We consider answers by the same participant with the same notification launch timestamp as duplicates and keep only the first register.
 
