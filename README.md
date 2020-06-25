@@ -6,9 +6,6 @@ Real-time, geolocalized data of mood variations following the COVID-19 outbreak
 # How to cite
 Carlos Bailon, Carmen Goicoechea, Oresti Baños, Miguel Damas, Héctor Pomares, Ángel Correa, Daniel Sanabria, Pandelis Perakakis. (2020). The CoVidAffect dataset of mood variations following the COVID-19 outbreak (Version date_28.04.20) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3774527
 
-# Preprint
-For detailed information on data acquisition and curation we invite you to read our [preprint](https://psyarxiv.com/3sv6r/) on the PsyArXiv repository.
-
 # OSF project
 We also invite all interested researchers and groups to join the [project's OSF page](https://osf.io/5cqzk/) where we will be sharing supplementary figures and information.
 
