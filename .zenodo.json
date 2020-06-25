@@ -1,13 +1,13 @@
 {
     "description": "<p>Latest Update of the CoVidAffect dataset</p>", 
     "license": "CC-BY-4.0", 
-    "title": "The CoVidAffect dataset of mood variations following the COVID-19 outbreak", 
+    "title": "The CoVidAffect dataset of mood variations following the COVID-19 outbreak in Spain", 
     "keywords": [
         "Mood",
         "Affective state",
         "COVID-19", 
         "Smartphone", 
-        "Experience Sampling",
+        "Experience sampling",
         "Ecological momentary assessment",
         "mHealth"
     ], 
