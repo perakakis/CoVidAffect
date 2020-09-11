@@ -32,11 +32,8 @@ The file **participants.csv** stores data from the initial participation questio
 **family_members** – Number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
 
 **family_ages** – Age of each one of the residents included in the variable family_members. Comma separated values for each member.
-=======
-**family_members** – Numeric value that codes the number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
 
-**family_ages** – Age of each one of the residents included in the variable family_members.
->>>>>>> ada468c9326f7c5ad39003f9495f8a35ff9f477e
+**family_members** – Numeric value that codes the number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
 
 **family_relation** – The relationship between the participant and each one of the residents included in the variable family_members. Possible comma separated values are: parent, partner, child, sibling, grandparent, grandchild, other, any (=no family relation).
 
@@ -56,11 +53,9 @@ The file **participants.csv** stores data from the initial participation questio
 
 **covid** – Codes presence of COVID-19 symptoms. Possible values are: no, not_diagnosed (symptomatic but not officially diagnosed), diagnosed (officially diagnosed with COVID-19).
 
-<<<<<<< HEAD
 **covid_residence** – Codes presence of COVID-19 symptoms in other residents. Possible values are: no, not_reported (symptomatic but not officially diagnosed), reported (officially diagnosed with COVID-19).
-=======
+
 **covid_family** – Codes presence of COVID-19 symptoms in other residents. Possible values are: no, not_diagnosed (symptomatic but not officially diagnosed), diagnosed (officially diagnosed with COVID-19).
->>>>>>> ada468c9326f7c5ad39003f9495f8a35ff9f477e
 
 **physical_activity** – Codes the number of hours dedicated to physical exercise before the crisis. Possible values are: 0-2, 2-4, 4-6, 6-8, 8+.
 
