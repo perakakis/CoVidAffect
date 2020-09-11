@@ -1,10 +1,10 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3774527.svg)](https://doi.org/10.5281/zenodo.3774527)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3774526.svg)](https://doi.org/10.5281/zenodo.3774526)
 
 # CoVidAffect [(https://covidaffect.info)](https://covidaffect.info)
-Real-time, geolocalized data of mood variations following the COVID-19 outbreak
+Real-time Monitoring of Mood Variations Following the COVID-19 Outbreak in Spain
 
 # How to cite
-Carlos Bailon, Carmen Goicoechea, Oresti Baños, Miguel Damas, Héctor Pomares, Ángel Correa, Daniel Sanabria, Pandelis Perakakis. (2020). The CoVidAffect dataset of mood variations following the COVID-19 outbreak (Version date_28.04.20) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3774527
+Carlos Bailon, Carmen Goicoechea, Oresti Baños, Miguel Damas, Héctor Pomares, Ángel Correa, Daniel Sanabria, Pandelis Perakakis. (2020). The CoVidAffect dataset of mood variations following the COVID-19 outbreak (Version date_10.09.20) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3774526
 
 # OSF project
 We also invite all interested researchers and groups to join the [project's OSF page](https://osf.io/5cqzk/) where we will be sharing supplementary figures and information.
@@ -20,19 +20,23 @@ The file **participants.csv** stores data from the initial participation questio
 
 **id** – Unique identifier for each participant. This variable is used to merge the three databases.
 
-**registered_date** – Date of registration in the database in the form: DD/MM/YYYY HR:MM:SS.
+**registered_date** – Date of registration in the database in the following format: YYYY-MM-DD HH:MM:SS.
 
 **sex** – Gender of each participant. Possible values are: feminine, masculine and other.
 
 **age** – Age of each participant ranging from 16 to 100+ years with all intermediate values possible.
 
-**country** – The participant’s country of residence.
-
 **postcode** – The participant’s postal code that is used for geolocation.
 
+<<<<<<< HEAD
+**family_members** – Number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
+
+**family_ages** – Age of each one of the residents included in the variable family_members. Comma separated values for each member.
+=======
 **family_members** – Numeric value that codes the number of people in the residence. Possible values are: 1 (“I live alone”), 2, 3, 4, 5, and 6+.
 
 **family_ages** – Age of each one of the residents included in the variable family_members.
+>>>>>>> ada468c9326f7c5ad39003f9495f8a35ff9f477e
 
 **family_relation** – The relationship between the participant and each one of the residents included in the variable family_members. Possible comma separated values are: parent, partner, child, sibling, grandparent, grandchild, other, any (=no family relation).
 
@@ -52,24 +56,36 @@ The file **participants.csv** stores data from the initial participation questio
 
 **covid** – Codes presence of COVID-19 symptoms. Possible values are: no, not_diagnosed (symptomatic but not officially diagnosed), diagnosed (officially diagnosed with COVID-19).
 
+<<<<<<< HEAD
+**covid_residence** – Codes presence of COVID-19 symptoms in other residents. Possible values are: no, not_reported (symptomatic but not officially diagnosed), reported (officially diagnosed with COVID-19).
+=======
 **covid_family** – Codes presence of COVID-19 symptoms in other residents. Possible values are: no, not_diagnosed (symptomatic but not officially diagnosed), diagnosed (officially diagnosed with COVID-19).
+>>>>>>> ada468c9326f7c5ad39003f9495f8a35ff9f477e
 
 **physical_activity** – Codes the number of hours dedicated to physical exercise before the crisis. Possible values are: 0-2, 2-4, 4-6, 6-8, 8+.
 
 **valence** – Valence rating before the crisis in a scale from -50 (negative) to +50 (positive).
+
+**input_method** - Method used by the participant to report mood records. Possible values are: App, Web, Both.
 
 ## mood.csv
 The file **mood.csv** stores data from each valence/arousal rating, recorded either on the web or via the smartphone app. It includes the following variables:
 
 **participant** – Unique identifier for each participant. This variable coincides with the variable id in participants.csv and can be used to merge the two datasets.
 
-**timestamp** – A timestamp (DD/MM/YYYY HR:MM:SS) identifying the exact date and time the notification was launched by the smartphone app.
+**timestamp** – A timestamp (YYYY-MM-DD HH:MM:SS) identifying the exact date and time the notification was launched by the smartphone app.
 
-**answer_timestamp** – A timestamp (DD/MM/YYYY HR:MM:SS) identifying the exact date and time the recording was registered by the participant. In case the recording was delivered online (not through the app), this variable coincides with the variable timestamp.
+**answer_timestamp** – A timestamp (YYYY-MM-DD HH:MM:SS) identifying the exact date and time the recording was registered by the participant. In case the recording was delivered online (not through the app), this variable coincides with the variable timestamp.
 
 **valence** – Current valence rating in a scale from -50 (negative) to +50 (positive).
 
 **arousal** – Current arousal rating in a scale from 0 (calm) to 100 (excited).
+
+**valence_scale_ini** – Starting postion of the valence input slider in a scale from -50 to +50.
+
+**arousal_scale_ini** – Starting postion of the arousal input slider in a scale from 0 to 100.
+
+**input_method** - Method used by the participant to report the mood. Possible values are: App, Web.
 
 ## context.csv
 The file **context.csv** stores data from the supplementary questions recorded once per week by the subsample of the participants using the smartphone app. It includes the following variables:
@@ -102,6 +118,8 @@ The visual analogue scales used to rate both valence and arousal were randomly i
 The database is periodically checked to identify possible duplicate records. We consider answers by the same participant with the same notification launch timestamp as duplicates and keep only the first register.
 
 # Usage Notes
+Columns in each CSV file are delimited by semicolons. The responses of multiple choice questions from the initial questionnaire (see Tables 2 and 5) have been encoded using commas to separate the multiple values (e.g. family_ages = ‘12,34,68’).
+
 To demonstrate potential uses of the data, on the project’s website we display territory maps showing the change of subjective feeling (valence) following the COVID-19 outbreak (Fig. 1). This is calculated by first estimating the average difference for each participant (average valence – pre-COVID19 valence recorded in the initial questionnaire) and then averaging across participants. The data on the maps can currently be calculated and displayed for any specific date and age range, while more analysis and visualization options will be offered as they become relevant.
 
 ![Fig1](preprint/Fig1.png)
